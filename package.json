@@ -1,0 +1,14 @@
+{
+  "name": "eslint-config-exove-nodejs",
+  "version": "0.0.1",
+  "description": "Exove ESLint Node.js configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+  	"name": "Eetu Latja",
+  	"email": "<eetu@exove.fi>"
+  },
+  "license": "ISC"
+}

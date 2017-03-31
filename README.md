@@ -10,5 +10,3 @@ Create a file `.eslintrc.js` in the same folder where `package.json` is located 
 		parser: 'babel-eslint',
 		extends: 'exove-nodejs',
 	};
-
-	

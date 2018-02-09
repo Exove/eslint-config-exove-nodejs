@@ -12,7 +12,7 @@
     "url": "https://github.com/Exove/eslint-config-exove-nodejs"
   },
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "eslint-plugin-import": "^2.8.0"
   }
 }

@@ -2,10 +2,10 @@
 
 ## Installation
 
-	npm install --save-dev eslint-config-exove-nodejs
+    npm install --save-dev eslint-config-exove-nodejs
 
 Create a file `.eslintrc.js` in the same folder where `package.json` is located with the following contents:
 
-	module.exports = {
-		extends: 'exove-nodejs',
-	};
+    module.exports = {
+        extends: 'exove-nodejs',
+    };

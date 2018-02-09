@@ -5,6 +5,10 @@ module.exports = {
 		node: true,
 	},
 
+	plugins: [
+		'import',
+	],
+
 	rules: {
 		'array-bracket-spacing': [ 2, 'always' ],
 		'comma-dangle': [ 2, {
@@ -13,7 +17,7 @@ module.exports = {
 			imports: 'always-multiline',
 			exports: 'always-multiline',
 			functions: 'always-multiline',
-		}],
+		} ],
 		'comma-spacing': [ 2, { after: true } ],
 		'computed-property-spacing': [ 2, 'never' ],
 		'eol-last': [ 2, 'always' ],
@@ -40,10 +44,18 @@ module.exports = {
 			'anonymous': 'never',
 			'named': 'never',
 			'asyncArrow': 'always',
-		}],
+		} ],
 		'space-in-parens': [ 2 ],
 		'space-infix-ops': [ 2 ],
 		'space-unary-ops': [ 2, { words: true, nonwords: false } ],
 		'spaced-comment': [ 2 ],
+		'import/order': [ 'error', {
+			groups: [
+				'builtin',
+				[ 'internal', 'external' ],
+				[ 'parent', 'sibling', 'index' ],
+			],
+			'newlines-between': 'always',
+		} ],
 	},
 };

@@ -41,9 +41,9 @@ module.exports = {
 		'semi-spacing': [ 2, { before: false, after: true } ],
 		'space-before-blocks': [ 2, 'always' ],
 		'space-before-function-paren': [ 2, {
-			'anonymous': 'never',
-			'named': 'never',
-			'asyncArrow': 'always',
+			anonymous: 'never',
+			named: 'never',
+			asyncArrow: 'always',
 		} ],
 		'space-in-parens': [ 2 ],
 		'space-infix-ops': [ 2 ],
@@ -57,5 +57,10 @@ module.exports = {
 			],
 			'newlines-between': 'always',
 		} ],
+		'quotes': [ 'error', 'single', {
+			avoidEscape: true,
+			allowTemplateLiterals: true,
+		} ],
+		'quote-props': [ 'error', 'consistent-as-needed' ],
 	},
 };

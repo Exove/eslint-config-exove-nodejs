@@ -62,5 +62,6 @@ module.exports = {
 			allowTemplateLiterals: true,
 		} ],
 		'quote-props': [ 'error', 'consistent-as-needed' ],
+		'brace-style': [ 'error', 'stroustrup' ],
 	},
 };

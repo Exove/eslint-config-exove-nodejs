@@ -1,5 +1,10 @@
 module.exports = {
 	extends: 'eslint:recommended',
+
+	parserOptions: {
+		ecmaVersion: 2018,
+	},
+
 	env: {
 		es6: true,
 		node: true,
@@ -50,7 +55,7 @@ module.exports = {
 		'space-unary-ops': [ 2, { words: true, nonwords: false } ],
 		'spaced-comment': [ 2 ],
 		'import/order': [ 'error', {
-			groups: [
+			'groups': [
 				'builtin',
 				[ 'internal', 'external' ],
 				[ 'parent', 'sibling', 'index' ],

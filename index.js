@@ -68,5 +68,6 @@ module.exports = {
 		} ],
 		'quote-props': [ 'error', 'consistent-as-needed' ],
 		'brace-style': [ 'error', 'stroustrup' ],
+		'padded-blocks': [ 'error', { classes: 'always' } ],
 	},
 };
